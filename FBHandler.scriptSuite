@@ -1,0 +1,11 @@
+{
+	Name = FBHandler;
+	AppleEventCode = UrHD;
+	Commands = {
+		GetURL = {
+			CommandClass = FBHandler;
+			AppleEventCode = GURL;
+			AppleEventClassCode = GURL;
+		};
+	};
+}

@@ -1,0 +1,10 @@
+{
+	Name = "FBHandler commands";
+	Description = "Commands to handle a Facebook URL";
+	Commands = {
+		GetURL = {
+			Name = "get URL";
+			Description = "Open a URL";
+		};
+	};
+}
