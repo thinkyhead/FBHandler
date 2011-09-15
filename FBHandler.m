@@ -14,7 +14,9 @@
 @implementation FBHandler
 
 - (id)performDefaultImplementation {
+#if DEBUGGING
 	NSLog(@"performDefaultImplementation");
+#endif
 
 	if ([(FBAppDel*)[NSApp delegate] shouldQuitInstead]) exit(EXIT_SUCCESS);
 
